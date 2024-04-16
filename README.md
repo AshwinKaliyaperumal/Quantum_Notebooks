@@ -7,6 +7,8 @@ After Setup use following commands to start up jupyter notebook.
 `source activate qc (or "activate qc" for Windows)`  
 `jupyter notebook`  
 
+Google colab is another good option.  
+
 ## Linux Setup
 
 These instructions work best on Ubuntu machines (and it's highly encouaged to use Linux). And here is a quick reference for Linux commands: https://www.linuxtrainingacademy.com/linux-commands-cheat-sheet/
