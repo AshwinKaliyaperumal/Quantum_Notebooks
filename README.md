@@ -14,17 +14,17 @@ These instructions work best on Ubuntu machines (and it's highly encouaged to us
 Once Anaconda and the necessary packages are installed, and you can get jupyter up and running, all the coding should be completely agnostic to the operating system.
 
 1. Download the most recent Anaconda distribution (with python 3.x) from: https://www.anaconda.com/products/individual#Downloads. Alternatively, on Ubuntu command line execute:  
-`wget https://repo.continuum.io/archive/Anaconda3-2022.10-Linux-x86_64.sh`   
+`wget https://repo.continuum.io/archive/Anaconda3-2023.09-0-Linux-x86_64.sh`   
 
 2. Install Anaconda distribution. On Ubuntu, run:  
-`sh Anaconda3-2022.10-Linux-x86_64.sh`  
+`sh Anaconda3-2023.09-0-Linux-x86_64.sh`  
 
 3. In the directory of your choice, clone this git repo:  
-`git clone https://github.com/ethanwyr/qc_intro`  
+`git clone https://github.com/anantrammp/Quantum_Notebooks`  
 
-4. In the cloned git repo, create a virtual conda environment with python 3.9 and some of the required packages (`numpy`, `matplotlib`, `jupyter`, and `sympy`) by executing: 
+4. In the cloned git repo, create a virtual conda environment with python and some of the required packages (`numpy`, `matplotlib`, `jupyter`, and `sympy`) by executing: 
 * Note this will take a while to complete the installation   
-`conda create -n qc python=3.9 numpy matplotlib jupyter sympy`  
+`conda create -n qc python numpy matplotlib jupyter sympy`  
 
 5. Activate your conda environment with the command:  
 `source activate qc`  
@@ -46,15 +46,15 @@ Once Anaconda and the necessary packages are installed, and you can get jupyter 
 
 2. Install Anaconda distribution by yourself. Or following this guide: https://docs.anaconda.com/anaconda/install/windows/
 
-3. In the directory of your choice, clone this git repo from https://github.com/ethanwyr/qc_intro by cliking on `Clone or download` and `Download ZIP`. 
+3. In the directory of your choice, clone this git repo from https://github.com/anantrammp/Quantum_Notebooks by cliking on `Clone or download` and `Download ZIP`. 
 
 4. From the Start menu, search for and open `Anaconda Prompt (Anaconda3)`, such as [link](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html#starting-conda). Navigate to your chosen directory and get into qc_intro.  
 Change Drive: `D:` or `C:`  
 Change directory tree: `cd D:\EE_421\qc_intro` or `cd "......\EE 421\qc_intro"`  
 
-5. In the cloned git repo, create a virtual conda environment with python 3.9 and some of the required packages (`numpy`, `matplotlib`, `jupyter`, and `sympy`) by executing:
+5. In the cloned git repo, create a virtual conda environment with python and some of the required packages (`numpy`, `matplotlib`, `jupyter`, and `sympy`) by executing:
 * Note this will take a while to complete the installation   
-`conda create -n qc python=3.9 numpy matplotlib jupyter sympy`   
+`conda create -n qc python numpy matplotlib jupyter sympy`   
 
 6. Activate your conda environment with the command:   
 `activate qc`  
